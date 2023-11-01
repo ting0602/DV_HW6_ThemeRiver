@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    font: 1em sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.typeSelector {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Theme River</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <h1>Theme River</h1>
+        <div id="typeSelector">
+            <h3>Type / Number of bedrooms</h3>
+            <div>
+                <input type="checkbox" id="house2" value="house2" checked>
+                <label for="house2">House 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="house3" value="house3" checked>
+                <label for="house3">House / 3</label>
+            </div>
+            <div>
+                <input type="checkbox" id="house4" value="house4" checked>
+                <label for="house4">House / 4</label>
+            </div>
+            <div>
+                <input type="checkbox" id="house5" value="house5" checked>
+                <label for="house5">House / 5</label>
+            </div>
+            <div>
+                <input type="checkbox" id="unit1" value="unit1" checked>
+                <label for="unit1">Unit / 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="unit2" value="unit2" checked>
+                <label for="unit2">Unit / 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="unit3" value="unit3" checked>
+                <label for="unit3">Unit / 3</label>
+            </div>
+        </div>
+        <br/>
+        <div>
+            <label for="sort-order-selector">Time Order:</label>
+            <select id="sort-order-selector">
+                <option value="ascending" selected>Ascending</option>
+                <option value="descending">Descending</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="width-slider">SVG Width:</label>
+            <input type="range" id="width-slider" min="800" max="1200" step="10">
+            <span id="width-value"></span>
+            <br>
+            <label for="height-slider">SVG Height:</label>
+            <input type="range" id="height-slider" min="300" max="500" step="10">
+            <span id="height-value"></span>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
