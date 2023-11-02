@@ -1,5 +1,5 @@
 # HW6 Theme River
-**NYCU Data Visualization and Visual Analytics HW4**
+**NYCU Data Visualization and Visual Analytics HW6**
 
 - **Objective:**
   - Craft a themeriver to represent the house property sales using D3.
