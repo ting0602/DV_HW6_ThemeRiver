@@ -1,4 +1,4 @@
-# HW5 Theme River
+# HW6 Theme River
 **NYCU Data Visualization and Visual Analytics HW4**
 
 - **Objective:**
